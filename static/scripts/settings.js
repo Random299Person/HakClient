@@ -2,6 +2,7 @@
 var eventKey = localStorage.getItem("eventKey") || "`";
 var panicLink = localStorage.getItem("panicLink") || "https://classroom.google.com/";
 
+/*
 document.addEventListener("keydown", function(event) {
   if (event.key === eventKey) {
     if (window.self !== window.top) {
@@ -63,6 +64,7 @@ function updateHeadSection(selectedValue) {
         localStorage.setItem("icon", "/images/favicon/classroom.png");
     }
 }
+*/
 
 // Redirect
 function handleDropdownChange(selectElement) {
@@ -132,6 +134,7 @@ function themeChange(ele) {
   window.location=window.location;
 }
 
+/*
         function AB() {
             let inFrame;
 
@@ -166,3 +169,4 @@ function themeChange(ele) {
                 }
             }
         }
+*/
